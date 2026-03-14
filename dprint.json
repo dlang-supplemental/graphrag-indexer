@@ -1,0 +1,9 @@
+{
+  "incremental": true,
+  "exec": {
+    "commands": [{
+      "exts": ["d", "di"],
+      "command": "dfmt --brace_style=otbs --end_of_line=lf"
+    }]
+  }
+}

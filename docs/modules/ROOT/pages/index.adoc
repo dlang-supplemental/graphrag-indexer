@@ -1,0 +1,7 @@
+= GraphRAG Indexer User Guide
+:description: Documentation for the GraphRAG indexing service.
+
+This module details the design and background service APIs for the GraphRAG indexer.
+
+## Future Plans
+In the future, we may implement our own core GraphRAG engine entirely in D, instead of just wrapping existing solutions. The service uses `dlangui` for a persistent HUD.

@@ -1,0 +1,17 @@
+= GraphRAG Indexer
+:description: Standalone GraphRAG indexing service written in D.
+:toc: macro
+:sectanchors:
+:sectlinks:
+
+This project is a standalone GraphRAG indexer service written in D. It is designed to run persistently in the background from the system tray, providing semantic understanding of codebases to DevCentr and other applications.
+
+* **Persistent Background Monitoring**: Evaluates memory usage in real time.
+* **Transparent System HUD**: Displays a borderless, semi-transparent load metric window. Contains a vignette style memory monitor, showing RAM %, flashing yellow overlays on hard faults, and growing red saturation based on hard fault frequency.
+* **System Tray**: Provides an icon for configuration and explicitly closing the indexer.
+
+_Note: The `dlangui` dependency might need enhancements like a vignette effect to fully support the visual design._
+
+== Documentation
+
+Please refer to the full documentation site (connected to `dlang-supplemental`).
