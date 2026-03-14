@@ -15,3 +15,7 @@ _Note: The `dlangui` dependency might need enhancements like a vignette effect t
 == Documentation
 
 Please refer to the full documentation site (connected to `dlang-supplemental`).
+
+== Changelog
+
+See the link:docs/modules/ROOT/pages/changelog.adoc[Changelog] for the revision history.

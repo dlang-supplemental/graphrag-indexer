@@ -1,0 +1,6 @@
+= 2026-03-14 – Initial Commit
+
+* Scaffolded the GraphRAG indexer D background service project.
+* Included minimal starting app, `.gitignore`, and `dprint.json`.
+* Initialized Antora documentation structure with playbook linkages to the D Lang Supplemental framework.
+* Documented planned implementation (memory monitor, transparent HUD using `dlangui`).

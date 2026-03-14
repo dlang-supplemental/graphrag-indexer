@@ -1,1 +1,2 @@
 * xref:index.adoc[GraphRAG Indexer (D)]
+* xref:changelog.adoc[Changelog]
