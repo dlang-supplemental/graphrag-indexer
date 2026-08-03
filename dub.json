@@ -4,5 +4,9 @@
 		"rjamd"
 	],
 	"license": "proprietary",
-	"name": "graphrag-indexer"
+	"name": "graphrag-indexer",
+	"dependencies": {
+		"dlangui": "~>0.9.186"
+	},
+	"versions": ["USE_OPENGL"]
 }

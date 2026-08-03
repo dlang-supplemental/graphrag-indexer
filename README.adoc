@@ -12,6 +12,10 @@ This project is a standalone GraphRAG indexer service written in D. It is design
 
 _Note: The `dlangui` dependency might need enhancements like a vignette effect to fully support the visual design._
 
+== Related: Gmail GraphRAG
+
+Mail metadata sync is **not** implemented here. Use private `AMDphreak/gmail-sync` for Gmail API / historyId sync, then feed associations into `connectome-fs` and embeddings into `vector-store-dlang` / `densor`. This indexer remains the optional tray/HUD host for long-running jobs.
+
 == Documentation
 
 Please refer to the full documentation site (connected to `dlang-supplemental`).
