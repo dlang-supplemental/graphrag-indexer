@@ -1,8 +1,32 @@
-= GraphRAG Indexer
-:description: Standalone GraphRAG indexing service written in D.
-:toc: macro
+ifndef::env-github[:icons: font]
+:toc: preamble
+:toclevels: 2
 :sectanchors:
-:sectlinks:
+endif::[]
+
+ifndef::env-github[]
+image:https://img.shields.io/github/contributors/dlang-supplemental/graphrag-indexer.svg?style=for-the-badge[Contributors,link=https://github.com/dlang-supplemental/graphrag-indexer/graphs/contributors]
+image:https://img.shields.io/github/forks/dlang-supplemental/graphrag-indexer.svg?style=for-the-badge[Forks,link=https://github.com/dlang-supplemental/graphrag-indexer/network/members]
+image:https://img.shields.io/github/stars/dlang-supplemental/graphrag-indexer.svg?style=for-the-badge[Stars,link=https://github.com/dlang-supplemental/graphrag-indexer/stargazers]
+image:https://img.shields.io/github/issues/dlang-supplemental/graphrag-indexer.svg?style=for-the-badge[Issues,link=https://github.com/dlang-supplemental/graphrag-indexer/issues]
+endif::[]
+
+ifdef::env-github[]
+image:https://img.shields.io/github/contributors/dlang-supplemental/graphrag-indexer.svg?style=for-the-badge[Contributors]
+image:https://img.shields.io/github/forks/dlang-supplemental/graphrag-indexer.svg?style=for-the-badge[Forks]
+image:https://img.shields.io/github/stars/dlang-supplemental/graphrag-indexer.svg?style=for-the-badge[Stars]
+image:https://img.shields.io/github/issues/dlang-supplemental/graphrag-indexer.svg?style=for-the-badge[Issues]
+endif::[]
+
+= GraphRAG Indexer
+
+Standalone GraphRAG indexing service written in D.
+
+link:https://dlang-supplemental.github.io[Explore the docs] ·
+link:https://github.com/dlang-supplemental/graphrag-indexer/issues[Report Bug] ·
+link:https://github.com/dlang-supplemental/graphrag-indexer/issues[Request Feature]
+
+== About The Project
 
 This project is a standalone GraphRAG indexer service written in D. It is designed to run persistently in the background from the system tray, providing semantic understanding of codebases to DevCentr and other applications.
 
@@ -12,14 +36,15 @@ This project is a standalone GraphRAG indexer service written in D. It is design
 
 _Note: The `dlangui` dependency might need enhancements like a vignette effect to fully support the visual design._
 
-== Related: Gmail GraphRAG
+== Usage
 
 Mail metadata sync is **not** implemented here. Use private `AMDphreak/gmail-sync` for Gmail API / historyId sync, then feed associations into `connectome-fs` and embeddings into `vector-store-dlang` / `densor`. This indexer remains the optional tray/HUD host for long-running jobs.
 
-== Documentation
-
 Please refer to the full documentation site (connected to `dlang-supplemental`).
 
-== Changelog
+== Contact
 
-See the link:docs/modules/ROOT/pages/changelog.adoc[Changelog] for the revision history.
+DLang Supplemental — dlang@devcentr.org
+
+* Project: https://github.com/dlang-supplemental/graphrag-indexer
+* Site: https://dlang-supplemental.github.io
